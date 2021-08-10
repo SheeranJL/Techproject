@@ -1,2 +1,1 @@
-# Techproject
- Project for techcourse
+# Techdegree Project
