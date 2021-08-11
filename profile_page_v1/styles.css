@@ -24,6 +24,7 @@ a:hover {
 /* Section Styles */
 
 .main-nav {
+  z-index: 1;
   width: 100%;
   background: black;
   min-height: 30px;
@@ -58,7 +59,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/codingback.jpg') no-repeat top center yellow ;
+  background: url('images/wood.jpg') no-repeat top center cyan;
   background-blend-mode: multiply;
   background-size: cover;
   overflow: hidden;
@@ -106,8 +107,8 @@ h3 {
 }
 
 .hobby-list-container {
-  margin: auto;
   margin-top: 50px;
+  margin-bottom: 0;
   display: flex;
   padding-bottom: 150px;
   justify-content: space-around;
@@ -124,6 +125,8 @@ h3 {
 
 .hobbyimages:hover {
   border-color: #ff99ff;
+  transform: scale(1.1);
+  transition: transform .5s;
 
 }
 
@@ -178,6 +181,11 @@ footer {
   padding: 20px 0 40px 20px;
 }
 
+figcaption {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
 footer .copyright {
   top: -8px;
   font-size: .75em;
